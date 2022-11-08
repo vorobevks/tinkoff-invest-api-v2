@@ -1,5 +1,5 @@
 {
-    "name": "vorobevks/tinkoff-invest-api-v2-php",
+    "name": "vorobevks/tinkoff-invest-api-v2",
     "version": "0.3.6",
     "description": "Unofficial PHP SDK for Tinkoff Invest API v2",
     "type": "library",
@@ -9,7 +9,7 @@
         "tinkoff",
         "invest api"
     ],
-    "homepage": "https://github.com/metaseller/tinkoff-invest-api-v2-php",
+    "homepage": "https://github.com/vorobevks/tinkoff-invest-api-v2",
     "authors": [
         {
             "name": "Igor Frolenkov",
