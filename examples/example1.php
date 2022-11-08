@@ -2,7 +2,7 @@
 
 require(__DIR__ . '/../vendor/autoload.php');
 
-use Metaseller\TinkoffInvestApi2\TinkoffClientsFactory;
+use Vorobevks\TinkoffInvestApi2\TinkoffClientsFactory;
 use Tinkoff\Invest\V1\GetInfoRequest;
 use Tinkoff\Invest\V1\GetInfoResponse;
 

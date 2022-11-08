@@ -1,6 +1,6 @@
 <?php
 
-use Metaseller\TinkoffInvestApi2\TinkoffClientsFactory;
+use Vorobevks\TinkoffInvestApi2\TinkoffClientsFactory;
 use Tinkoff\Invest\V1\Instrument;
 use Tinkoff\Invest\V1\InstrumentsRequest;
 use Tinkoff\Invest\V1\InstrumentStatus;

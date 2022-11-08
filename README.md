@@ -70,11 +70,11 @@ PS: Если вы планируете использовать в проект�
 Ну либо устанавливаем SDK через [composer](http://getcomposer.org/download/)
 
 ```
-$ composer require metaseller/tinkoff-invest-api-v2-php 
+$ composer require Vorobevks/tinkoff-invest-api-v2 
 ```
 ну или 
 ```
-$ git clone git@github.com:metaseller/tinkoff-invest-api-v2-php.git .
+$ git clone git@github.com:Vorobevks/tinkoff-invest-api-v2.git .
 composer update
 ```
 

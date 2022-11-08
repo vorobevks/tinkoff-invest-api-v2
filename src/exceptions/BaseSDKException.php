@@ -1,13 +1,13 @@
 <?php
 
-namespace Metaseller\TinkoffInvestApi2\exceptions;
+namespace Vorobevks\TinkoffInvestApi2\exceptions;
 
 use Exception;
 
 /**
  * Базовая модель исключения, возникшего в логике SDK
  *
- * @package Metaseller\TinkoffInvestApi2
+ * @package Vorobevks\TinkoffInvestApi2
  */
 class BaseSDKException extends Exception
 {

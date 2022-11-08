@@ -1,8 +1,8 @@
 <?php
 
 use Google\Protobuf\Internal\RepeatedField;
-use Metaseller\TinkoffInvestApi2\TinkoffClientsFactory;
-use Metaseller\TinkoffInvestApi2\providers\InstrumentsProvider;
+use Vorobevks\TinkoffInvestApi2\TinkoffClientsFactory;
+use Vorobevks\TinkoffInvestApi2\providers\InstrumentsProvider;
 use Tinkoff\Invest\V1\InstrumentsRequest;
 use Tinkoff\Invest\V1\InstrumentStatus;
 use Tinkoff\Invest\V1\Share;

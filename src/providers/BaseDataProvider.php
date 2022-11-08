@@ -1,13 +1,13 @@
 <?php
 
-namespace Metaseller\TinkoffInvestApi2\providers;
+namespace Vorobevks\TinkoffInvestApi2\providers;
 
-use Metaseller\TinkoffInvestApi2\TinkoffClientsFactory;
+use Vorobevks\TinkoffInvestApi2\TinkoffClientsFactory;
 
 /**
  * Базовая модель провайдера данных сервиса Tinkoff Invest API 2
  *
- * @package Metaseller\TinkoffInvestApi2
+ * @package Vorobevks\TinkoffInvestApi2
  */
 abstract class BaseDataProvider
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Metaseller\TinkoffInvestApi2;
+namespace Vorobevks\TinkoffInvestApi2;
 
 use Exception;
 
 /**
  * Микро трейт расширенного функционала работы
  *
- * @package Metaseller\TinkoffInvestApi2
+ * @package Vorobevks\TinkoffInvestApi2
  */
 trait ModelTrait
 {

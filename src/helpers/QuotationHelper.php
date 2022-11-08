@@ -1,8 +1,8 @@
 <?php
 
-namespace Metaseller\TinkoffInvestApi2\helpers;
+namespace Vorobevks\TinkoffInvestApi2\helpers;
 
-use Metaseller\TinkoffInvestApi2\exceptions\ValidateException;
+use Vorobevks\TinkoffInvestApi2\exceptions\ValidateException;
 use Tinkoff\Invest\V1\Bond;
 use Tinkoff\Invest\V1\Currency;
 use Tinkoff\Invest\V1\Etf;
@@ -16,7 +16,7 @@ use Tinkoff\Invest\V1\Share;
 /**
  * Хелпер для работы с представлением котировок, количеств, стоимостей в Tinkoff Invest API v2
  *
- * @package Metaseller\TinkoffInvestApi2
+ * @package Vorobevks\TinkoffInvestApi2
  */
 class QuotationHelper
 {

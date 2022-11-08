@@ -1,6 +1,6 @@
 <?php
 
-namespace Metaseller\TinkoffInvestApi2;
+namespace Vorobevks\TinkoffInvestApi2;
 
 use Exception;
 use Tinkoff\Invest\V1\InstrumentsServiceClient;
@@ -27,7 +27,7 @@ use Grpc\Channel as GrpcChannel;
  * @property-read StopOrdersServiceClient $stopOrdersServiceClient Клиент с настройками по-умолчанию к сервису стоп-заявок
  * @property-read UsersServiceClient $usersServiceClient Клиент с настройками по-умолчанию к сервису аккаунтов
  *
- * @package Metaseller\TinkoffInvestApi2
+ * @package Vorobevks\TinkoffInvestApi2
  */
 class TinkoffClientsFactory
 {
@@ -38,7 +38,7 @@ class TinkoffClientsFactory
      *
      * @see https://tinkoff.github.io/investAPI/grpc/#appname
      */
-    public const DEFAULT_APP_NAME = 'metaseller.tinkoff-invest-api-v2-php';
+    public const DEFAULT_APP_NAME = 'vorobevks.tinkoff-invest-api-v2';
 
     /**
      * @var string|null Передаваемое AppName запросов

@@ -1,7 +1,7 @@
 <?php
 
-use Metaseller\TinkoffInvestApi2\TinkoffClientsFactory;
-use Metaseller\TinkoffInvestApi2\providers\InstrumentsProvider;
+use Vorobevks\TinkoffInvestApi2\TinkoffClientsFactory;
+use Vorobevks\TinkoffInvestApi2\providers\InstrumentsProvider;
 use Tinkoff\Invest\V1\MarketDataRequest;
 use Tinkoff\Invest\V1\MarketDataResponse;
 use Tinkoff\Invest\V1\Order;

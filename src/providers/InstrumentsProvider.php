@@ -1,12 +1,12 @@
 <?php
 
-namespace Metaseller\TinkoffInvestApi2\providers;
+namespace Vorobevks\TinkoffInvestApi2\providers;
 
 use Exception;
 use Google\Protobuf\Internal\RepeatedField;
-use Metaseller\TinkoffInvestApi2\exceptions\InstrumentNotFoundException;
-use Metaseller\TinkoffInvestApi2\exceptions\ValidateException;
-use Metaseller\TinkoffInvestApi2\TinkoffClientsFactory;
+use Vorobevks\TinkoffInvestApi2\exceptions\InstrumentNotFoundException;
+use Vorobevks\TinkoffInvestApi2\exceptions\ValidateException;
+use Vorobevks\TinkoffInvestApi2\TinkoffClientsFactory;
 use Tinkoff\Invest\V1\Bond;
 use Tinkoff\Invest\V1\BondResponse;
 use Tinkoff\Invest\V1\BondsResponse;
@@ -33,7 +33,7 @@ use Tinkoff\Invest\V1\SharesResponse;
 /**
  * Базовая модель провайдера данных сервиса Tinkoff Invest API 2
  *
- * @package Metaseller\TinkoffInvestApi2
+ * @package Vorobevks\TinkoffInvestApi2
  */
 class InstrumentsProvider extends BaseDataProvider
 {

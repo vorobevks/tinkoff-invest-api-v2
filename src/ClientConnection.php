@@ -1,13 +1,13 @@
 <?php
 
-namespace Metaseller\TinkoffInvestApi2;
+namespace Vorobevks\TinkoffInvestApi2;
 
 use Grpc\ChannelCredentials;
 
 /**
  * Модель получения настроек соединения с сервисом Tinkoff Invest API 2
  *
- * @package Metaseller\TinkoffInvestApi2
+ * @package Vorobevks\TinkoffInvestApi2
  */
 class ClientConnection
 {

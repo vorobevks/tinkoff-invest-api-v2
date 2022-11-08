@@ -1,11 +1,11 @@
 <?php
 
-namespace Metaseller\TinkoffInvestApi2\exceptions;
+namespace Vorobevks\TinkoffInvestApi2\exceptions;
 
 /**
  * Модель исключения 'Инструмент не найден'
  *
- * @package Metaseller\TinkoffInvestApi2
+ * @package Vorobevks\TinkoffInvestApi2
  */
 class InstrumentNotFoundException extends BaseSDKException
 {
